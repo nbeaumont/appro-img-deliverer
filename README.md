@@ -16,3 +16,5 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
 
 ## [Demo](http://htmlpreview.github.io/?https://github.com/nbeaumont/appro-img-deliverer/blob/master/index.html)
+
+## Instructions
