@@ -39,57 +39,37 @@
 	bottom: 0;
 	right: 0;
 	left: 0;
-	cursor: pointer
+	cursor: pointer;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
 }
 
 .Claude_Monet_-_Poppy_Field_-_Google_Art_Project {
 	background: url(../_images/480/Claude_Monet_-_Poppy_Field_-_Google_Art_Project-480.jpg) center no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain
 }
 
 .Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project {
 	background: url(../_images/480/Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project-480.jpg) center no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain
 }
 
 .Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project {
 	background: url(../_images/480/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project-480.jpg)center no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
 
 .Claude_Monet_-_Poppy_Field_-_Google_Art_Project {
 	background: url(../_images/960/Claude_Monet_-_Poppy_Field_-_Google_Art_Project-960.jpg) center no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain
 }
 
 .Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project {
 	background: url(../_images/960/Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project-960.jpg) center no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain
 }
 
 .Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project {
 	background: url(../_images/960/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project-960.jpg) center no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain
 }
 }
 
