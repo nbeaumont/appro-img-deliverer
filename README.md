@@ -13,5 +13,6 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 - serves the same image, whether the device is in portrait or landscape mode on most common mobile devices, to avoid downloading a new image after a change in orientation. Devices and resolutions covered are the ones found in Google Chrome devTools, Device Mode and Mobile Emulation.
 
 - supports high resolution display with a device pixel ratio equal or superior to 2, by delivering an image with twice as many pixels .
-- 
+
+
 ## [Demo](http://htmlpreview.github.io/?https://github.com/nbeaumont/appro-img-deliverer/blob/master/index.html)
