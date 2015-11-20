@@ -1,0 +1,474 @@
+@charset "UTF-8";
+
+/* CSS Document */
+.dai-contentWrapper {
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 0;
+	margin: 0
+}
+
+.dai-centerer {
+	display: block;
+	width: 100%;
+	max-width: 480px;
+	margin-right: auto;
+	margin-left: auto;
+	marigin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	background-color: #CCC;
+	overflow: hidden
+}
+
+.dai-wrapper {
+	width: 100%;
+	display: inline-block;
+	position: relative
+}
+
+.dai-wrapper:after {
+	display: block;
+	content: ''
+}
+
+.dai-main {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	cursor: pointer
+}
+
+.Claude_Monet_-_Poppy_Field_-_Google_Art_Project {
+	background: url(../_images/480/Claude_Monet_-_Poppy_Field_-_Google_Art_Project-480.jpg) center no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
+}
+
+.Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project {
+	background: url(../_images/480/Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project-480.jpg) center no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
+}
+
+.Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project {
+	background: url(../_images/480/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project-480.jpg)center no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
+
+.Claude_Monet_-_Poppy_Field_-_Google_Art_Project {
+	background: url(../_images/960/Claude_Monet_-_Poppy_Field_-_Google_Art_Project-960.jpg) center no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
+}
+
+.Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project {
+	background: url(../_images/960/Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project-960.jpg) center no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
+}
+
+.Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project {
+	background: url(../_images/960/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project-960.jpg) center no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
+}
+}
+
+#dai-mediaQueryIndicator {
+	position: absolute;
+	top: -999em;
+	left: -999em
+}
+
+.mfp-title {
+	padding-right: 0
+}
+
+a.mfpImageSourceLink {
+	text-decoration: none
+}
+
+a.mfpImageSourceLink, a.mfpImageSourceLink:visited {
+	color: #BBB
+}
+
+a.mfpImageSourceLink:hover {
+	color: #DDD
+}
+
+a.mfpImageSourceLink {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: bold
+}
+
+/* ===================
+ * ===================
+ * == MEDIA QUERIES ==
+ * ===================
+ * ===================
+ */
+
+/*! ==========================
+ *  * max viewport 320 x 480 *
+ *  ==========================
+ *  |		* devicePixelRatio < 2 
+ *  |		| --------------------
+ *  |		|		* LG Optimus One - 213 x 320 
+ *  |		|		* iPhone 3GS - 320 x 480
+ */
+ 
+@media only screen and (max-width:320px) and (orientation:portrait), only screen and (max-width:480px) and (orientation:landscape) {
+
+#dai-mediaQueryIndicator:before {
+	content: "480"
+}
+}
+
+@media only screen and (max-width:320px) and (orientation:portrait) {
+
+.dai-centerer, .dai-main {
+	max-height: 400px
+}
+}
+
+@media only screen and (max-width:480px) and (orientation:landscape) {
+
+.dai-centerer, .dai-main {
+	max-height: 270px
+}
+}
+
+/*!
+ *  |		* devicePixelRatio >= 2
+ *  |		| ---------------------
+ *  |		|		* iPhone 4 - 320 x 480
+ */
+ 
+@media only screen and (max-width:320px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (max-width:320px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (max-width:320px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (max-width:480px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (max-width:480px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (max-width:480px) and (orientation:landscape) and (min-resolution:2dppx) {
+
+#dai-mediaQueryIndicator:before {
+	content: "480@2x"
+}
+}
+
+/*! ==================================================
+ *  * min viewport 321 x 481, max viewport 400 x 640 *
+ *  ==================================================
+ *  |		* devicePixelRatio < 2 
+ *  |		| --------------------
+ *  |		|		* Nokia Lumia 520 - 320 x 533 - Device Pixel Ratio: 1.4 
+ *  |		|		* Google Nexus S, HTC Evo, Touch HD, Desire HD, Desire, LG Optimus 2X, Optimus 3D, Optimus Black, Nokia Lumia 7X0, Lumia 8XX, Lumia 900, N800, N810, N900, Samsung Galaxy S, S II, W - 320 x 533 - Device Pixel Ratio: 1.5
+ *  |		|		* Motorola Defy, Droid, Droid X, Milestone - 320 x 569 - 9/16 aspect ratio - Device Pixel Ratio: 1.5 
+ *  |		|		* HTC Sensation, Evo 3D, Nokia C5, C6, C7, N97, N9, N8, X7 - 360 x 640 
+ *  |		|		* LG Optimus L70 - 384 x 640 - Device Pixel Ratio: 1.25 
+ */
+ 
+@media only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait), only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape), only screen and (max-width:320px) and (device-aspect-ratio:40/71) and (orientation:portrait), only screen and (width:320px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.4) and (-webkit-max-device-pixel-ratio:1.9), only screen and (width:320px) and (orientation:portrait) and (min-resolution:144dpi) and (max-resolution:191dpi), only screen and (width:320px) and (orientation:portrait) and (min-resolution:1.4dppx) and (max-resolution:1.9dppx) {
+
+#dai-mediaQueryIndicator:before {
+	content: "640"
+}
+}
+
+@media only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait), only screen and (max-width:320px) and (device-aspect-ratio:40/71) and (orientation:portrait), only screen and (width:320px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.4) and (-webkit-max-device-pixel-ratio:1.9), only screen and (width:320px) and (orientation:portrait) and (min-resolution:144dpi) and (max-resolution:191dpi), only screen and (width:320px) and (orientation:portrait) and (min-resolution:1.4dppx) and (max-resolution:1.9dppx) {
+
+.dai-centerer, .dai-main {
+	max-height: 400px
+}
+}
+
+@media only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) {
+
+.dai-centerer, .dai-main {
+	max-height: 270px
+}
+}
+
+/*! 
+ *  |		* devicePixelRatio >= 2 
+ *  |		| ---------------------
+ *  |		|		* iphone 5 - 320 x 568 - 40/71 aspect ratio 
+ *  |		|		* BlackBerry Z30, Google Nexus 5, HTC One X, EVO LTE, Samsung Galaxy Note II, Samsung Galaxy S III, Galaxy Nexus, Samsung Galaxy S4, Sony Xperia S, Ion, Sony Xperia Z, Z1 - 360 x 640
+ *  |		|		* BlackBerry Z10, Google Nexus 4, LG Optimus G - 384 x 640 
+ *  |		|		* Samsung Galaxy Note - 400 x 640
+ */
+ 
+@media only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) and (min-resolution:2dppx), only screen and (max-width:320px) and (device-aspect-ratio:40/71) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2) {
+
+#dai-mediaQueryIndicator:before {
+	content: "640@2x"
+}
+}
+
+/*! ==================================================
+ *  * min viewport 401 x 641, max viewport 480 x 800 *
+ *  ==================================================
+ *  |		* devicePixelRatio < 2 
+ *  |		| --------------------
+ *  |		|		* LG Optimus LTE, Optimus 4X HD - 424 x 753
+ */
+ 
+@media only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait), only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape), only screen and (min-width:375px) and (max-width:667px) and (orientation:portrait) and (device-aspect-ratio:375/667) {
+
+#dai-mediaQueryIndicator:before {
+	content: "800"
+}
+}
+
+@media only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait), only screen and (min-width:375px) and (max-width:667px) and (orientation:portrait) and (device-aspect-ratio:375/667) {
+
+.dai-centerer, .dai-main {
+	max-height: 540px
+}
+}
+
+@media only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape) {
+
+.dai-centerer, .dai-main {
+	max-height: 320px
+}
+}
+
+/*! 
+ *  |		* devicePixelRatio >= 2 
+ *  |		| ---------------------
+ *  |		|		* iPhone 6 - 375 x 667 - 375/667 aspect ratio
+ *  |		|		* iPhone 6+ - 414 x 736
+ *  |		|		* Google Nexus 6 - 412 x 659 - Device pixel ratio 3.5
+ */
+ 
+@media only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape) and (min-resolution:2dppx), only screen and (min-width:375px) and (max-width:667px) and (orientation:portrait) and (device-aspect-ratio:375/667) and (-webkit-min-device-pixel-ratio:2) {
+
+#dai-mediaQueryIndicator:before {
+	content: "800@2x"
+}
+}
+
+/*! ===================================================
+ *  * min viewport 481 x 801, max viewport 768 x 1024 *
+ *  ===================================================
+ *  |		* devicePixelRatio < 2 
+ *  |		| --------------------
+ *  |		|		* Kindle Fire HD 7" - 853 x 533
+ *  |		|		* Sony Xperia Sola, U - 480 x 854
+ *  |		|		* Motorola Droid 3, Droid 4, Droid Razr, Atrix 4G, Atrix 2 - 540 x 960
+ *  |		|		* Google Nexus 7 - 966 x 604
+ *  |		|		* Kindle Fire, BlackBerry PlayBook, Samsung Galaxy Tab - 1024 x 600
+ *  |		|		* iPad 1 / 2 / iPad Mini - 1024 x 768 
+ */
+ 
+@media only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait), only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape), only screen and (device-width:480px) and (device-height:854px) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1024"
+}
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait), only screen and (device-width:480px) and (device-height:854px) and (orientation:portrait) {
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+@media only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape) {
+
+.dai-centerer, .dai-main {
+	max-height: 400px
+}
+}
+
+/*! 
+ *  |		* devicePixelRatio >= 2 
+ *  |		| --------------------
+ *  |		|		* Samsung Galaxy Note 3 - 540 x 960
+ *  |		|		* Google Nexus 7, Kindle Fire HDX 7" - 960 x 600
+ *  |		|		* iPad 3/4 - 1024 x 768
+ */
+ 
+@media only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape) and (min-resolution:2dppx) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1024@2x"
+}
+}
+
+/*! =====================================================
+ *  * min viewport 769 x 1025, max viewport 1024 x 1280 *
+ *  =====================================================
+ *  |		* devicePixelRatio < 2 
+ *  |		| --------------------
+ *  |		|		* Motorola Droid Razr HD - 720 x 1280 - 9/16 aspect ratio
+ *  |		|		* Kindle Fire HD 8.9", Motorola Xoom, Xyboard, Samsung Galaxy Tab 7.7, 8.9, 10.1 - 1280 x 800
+ */
+ 
+@media only screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:landscape), only screen and (min-width:720px) and (device-aspect-ratio:9/16) and (orientation:portrait) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1280"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+/*! 
+ *  |		* devicePixelRatio >= 2 
+ *  |		| ---------------------
+ *  |		|		* Google Nexus 10, Kindle Fire HDX 8.9" - 1280 x 800
+ */
+ 
+@media only screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:landscape) and (min-resolution:2dppx), only screen and (min-width:720px) and (orientation:portrait) and (device-aspect-ratio:9/16) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:720px) and (orientation:portrait) and (device-aspect-ratio:9/16) and (min-resolution:192dpi), only screen and (min-width:720px) and (orientation:portrait) and (device-aspect-ratio:9/16) and (min-resolution:2dppx) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1280@2x"
+}
+}
+
+/*! ==========================================================
+ *  * min viewport 1025 portrait, max viewport 1280 portrait *
+ *  ==========================================================
+ *  |		* devicePixelRatio < 2
+ */
+ 
+@media only screen and (min-width:1025px) and (max-width:1280px) and (orientation:portrait) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1280"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+/*! 
+ *  |		* devicePixelRatio >= 2
+ */
+ 
+@media only screen and (min-width:1025px) and (max-width:1280px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:portrait) and (min-resolution:2dppx) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1280@2x"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+/*! ==============================
+ *  * min viewport 1281 portrait *
+ *  ==============================
+ *  |		* devicePixelRatio < 2
+ */
+ 
+@media only screen and (min-width:1281px) and (orientation:portrait) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1600"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+/*! ==============================
+ *  * min viewport 1281 portrait *
+ *  ==============================
+ *  |		* devicePixelRatio >= 2
+ */
+ 
+@media only screen and (min-width:1281px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:1281px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:1281px) and (orientation:portrait) and (min-resolution:2dppx) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1600@2x"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+/*! ===============================
+ *  * min viewport 1281 landscape *
+ *  ===============================
+ *  |		* devicePixelRatio < 2
+ */
+ 
+@media only screen and (min-width:1281px) and (max-width:1600px) and (orientation:landscape) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1600"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+@media only screen and (min-width:1601px) and (max-width:1920px) and (orientation:landscape) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1920"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+@media only screen and (min-width:1921px) and (max-width:2560px) and (orientation:landscape) {
+
+#dai-mediaQueryIndicator:before {
+	content: "2560"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+@media only screen and (min-width:2561px) and (orientation:landscape) {
+
+#dai-mediaQueryIndicator:before {
+	content: "3200"
+}
+
+.dai-centerer, .dai-main {
+	max-height: 480px
+}
+}
+
+/*! 
+ *  |		* devicePixelRatio >= 2
+ */
+ 
+@media only screen and (min-width:1281px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:1281px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:1281px) and (orientation:landscape) and (min-resolution:2dppx) {
+
+#dai-mediaQueryIndicator:before {
+	content: "1600@2x"
+}
+}
