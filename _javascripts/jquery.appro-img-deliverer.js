@@ -88,11 +88,5 @@
             } else {}
         });
     };
-    $(document).ready(function() {
-        $('.dai-main').each(function() {
-            $(this).set_aspectRatio();
-        });
-
-        $('.dai-main').open_popup();
-    });
+    
 })(jQuery);

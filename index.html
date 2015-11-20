@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Delivering a device appropriate version of an image with CSS and JavaScript</title>
 <link rel="stylesheet" type="text/css" media="screen" href="_stylesheets/magnific-popup.css">
-<link rel="stylesheet" type="text/css" media="screen" href="_stylesheets/devAptImg.css">
+<link rel="stylesheet" type="text/css" media="screen" href="_stylesheets/appro-img-deliverer.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="_javascripts/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="_javascripts/jquery.appro-img-deliverer.js"></script>
 </head>
 <body>
 <div id="dai-mediaQueryIndicator">&nbsp;</div>
@@ -33,16 +34,14 @@
   </div>
 </div>
 <script type="text/javascript">
-function downloadJSAtOnload() {
-  var element = document.createElement("script");
-  element.src = "_javascripts/defer-devAptImg.js";
-  document.body.appendChild(element);
-}
-if (window.addEventListener)
-  window.addEventListener("load", downloadJSAtOnload, false);
-else if (window.attachEvent)
-  window.attachEvent("onload", downloadJSAtOnload);
-else window.onload = downloadJSAtOnload;
+jQuery(function() {
+	$(document).ready(function() {
+        $('.dai-main').each(function() {
+            $(this).set_aspectRatio();
+        });
+        $('.dai-main').open_popup();
+    });
+	});
 </script>
 </body>
 </html>
