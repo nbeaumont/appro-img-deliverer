@@ -10,6 +10,6 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
 - adapts the largest dimension of the image delivered, to the largest dimension of the device. For example, if we have a breakpoint at 640px in our CSS Media Queries and our device screen resolution is 360px by 640px; if our image is in portrait mode, its height is going to be 640px, and if it is in landscape mode, its width is going to be 640px.
 
-- serves the same image, whether the device is in portrait or landscape mode on most common mobile devices, to avoid downloading a new image after a change in orientation. Devices and resolutions covered are the ones found in Google Chrome Version 44 devTools, Device Mode and Mobile Emulation.
+- serves the same image, whether the device is in portrait or landscape mode on most common mobile devices, to avoid downloading a new image after a change in orientation. Devices and resolutions covered are the ones found in Google Chrome devTools, Device Mode and Mobile Emulation.
 
 - supports high resolution display with a device pixel ratio equal or superior to 2, by delivering an image with twice as many pixels .
