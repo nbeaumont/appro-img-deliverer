@@ -20,15 +20,30 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 ## Instructions
 
 ### 1. Prepare You Images
-  * Create some folders keeping the following directory structure:
+  * Download the content of appro-img-deliverer as a ZIP file.
+ 
+  * Unzip it.
 
 ![screen-shot-2015-11-21-at-2 55 51-pm](https://cloud.githubusercontent.com/assets/10236829/11320311/d1a0aacc-9062-11e5-8762-a3a33eab270e.png)
 
-  * Using [Photoshop image processor](https://helpx.adobe.com/photoshop/using/processing-batch-files.html) resize your image to fit within specified pixel dimensions. For the 480px version of your image the settings should look like this:
+  * Open Photoshop.
+
+  * Choose File > Scripts > Image Processor. See [Photoshop Help / 
+Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-batch-files.html) for more info.
+
+  * Select the image or images to be processed. You can choose to process any open files, or select a folder of files to process.
+
+  * Select the location where you want to save the processed files. For the 480px version of your image choose the folder named 480.
+
+  * Select the file types and options to save. For the 480px version of your image choose the folder named 480.
+
+  * Select Save as JPEG.
+
+  * Set the JPEG image quality.
+
+  * Select resize to fit. It resizes the image to fit within the dimensions you enter in Width and Height. The image retains its original proportions. For the 480px version of your image enter 480in Width and 480 in Height.
 
 ![image_processor_screen_shot](https://cloud.githubusercontent.com/assets/10236829/11309892/80c900d2-8f94-11e5-8115-99778741f5af.png)
-
-  * Save the processed 480px version of your image in the folder named 480.
 
   * Repeat the operation with the 640px, 800px, 960px, 1024px, 1280px, 1600px, 1920px, 2048px, 2560px, and 3200px versions of your image, and save the processed images into their respective folder.
 
