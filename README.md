@@ -48,7 +48,7 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 
   * Rename your processed images by adding ‘-‘ + ‘the containing folder name’, at the end of the file name. You should end up with the following directory tree:
 
-![screen-shot-2015-11-21-at-3 01 12-pm](https://cloud.githubusercontent.com/assets/10236829/11320314/d6ef0e2e-9062-11e5-9333-8f614e881d1a.png)
+![screen-shot-2015-11-21-at-5 28 14-pm](https://cloud.githubusercontent.com/assets/10236829/11320921/18631736-9079-11e5-8624-09d634708dcb.png)
 
 ### 2. Setup Your Document
 
