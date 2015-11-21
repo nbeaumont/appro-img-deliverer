@@ -24,6 +24,11 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
   * Download the content of appro-img-deliverer as a ZIP file.
  
   * Unzip it.
+  
+  * Create the following directory tree.
+  
+![screen-shot-2015-11-21-at-5 43 34-pm](https://cloud.githubusercontent.com/assets/10236829/11320898/e023aabc-9077-11e5-96d3-521fbf2c5e0a.png)
+
 
   * Open Photoshop.
 
