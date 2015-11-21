@@ -20,6 +20,7 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 ## Instructions
 
 ### 1. Prepare You Images
+
   * Download the content of appro-img-deliverer as a ZIP file.
  
   * Unzip it.
@@ -33,8 +34,6 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 
   * Select the location where you want to save the processed files. For the 480px version of your image choose the folder named 480.
 
-  * Select the file types and options to save. For the 480px version of your image choose the folder named 480.
-
   * Select Save as JPEG.
 
   * Set the JPEG image quality.
@@ -43,7 +42,7 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 
 ![image_processor_screen_shot](https://cloud.githubusercontent.com/assets/10236829/11309892/80c900d2-8f94-11e5-8115-99778741f5af.png)
 
-  * Repeat the operation with the 640px, 800px, 960px, 1024px, 1280px, 1600px, 1920px, 2048px, 2560px, and 3200px versions of your image or images, and save the processed images into their respective folder.
+  * Repeat the operation for the 640px, 800px, 960px, 1024px, 1280px, 1600px, 1920px, 2048px, 2560px, and 3200px versions of your images.
 
   * Rename your processed images by adding ‘-‘ + ‘the containing folder name’, at the end of the file name. You should end up with the following directory tree:
 
