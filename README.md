@@ -19,6 +19,29 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
 ## Instructions
 
+### 1. Prepare You Images
+  * Create some folders keeping the following directory structure:
+
+![screen-shot-2015-11-21-at-2 55 51-pm](https://cloud.githubusercontent.com/assets/10236829/11320311/d1a0aacc-9062-11e5-8762-a3a33eab270e.png)
+
+  * Using [Photoshop image processor](https://helpx.adobe.com/photoshop/using/processing-batch-files.html) resize your image to fit within specified pixel dimensions. For the 480px version of your image the settings should look like this:
 
 ![image_processor_screen_shot](https://cloud.githubusercontent.com/assets/10236829/11309892/80c900d2-8f94-11e5-8115-99778741f5af.png)
 
+  * Save the processed 480px version of your image in the folder named 480.
+
+  * Repeat the operation with the 640px, 800px, 960px, 1024px, 1280px, 1600px, 1920px, 2048px, 2560px, and 3200px versions of your image, and save the processed images into their respective folder.
+
+  * Rename your processed images by adding ‘-‘ + ‘the containing folder name’, at the end of the file name. You should end up with the following directory tree:
+
+![screen-shot-2015-11-21-at-3 01 12-pm](https://cloud.githubusercontent.com/assets/10236829/11320314/d6ef0e2e-9062-11e5-9333-8f614e881d1a.png)
+
+### 2. Setup Your Document
+
+  * Create a new html document and save it in your “project_root” folder.
+  
+  * Include the following code in the head section of your document:
+  
+  
+  
+  * 
