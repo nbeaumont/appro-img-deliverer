@@ -19,34 +19,6 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
 ## Instructions
 
-project_root/
-
-..._images/
-
-......480/
-            *   my_image-480.jpg
-        *   640/
-            *   my_image-640.jpg
-        *   800/
-            *   my_image-800.jpg
-        *   960/
-            *   my_image-960.jpg
-        *   1024/
-            *   my_image-1024.jpg
-        *   1280/
-            *   my_image-1280.jpg
-        *   1600/
-            *   my_image-1600.jpg
-        *   1920/
-            *   my_image-1920.jpg
-        *   2048/
-            *   my_image-2048.jpg
-        *   2560/
-            *   my_image-2560.jpg
-        *   3200/
-            *   my_image-3200.jpg
-
-
 
 ![image_processor_screen_shot](https://cloud.githubusercontent.com/assets/10236829/11309892/80c900d2-8f94-11e5-8115-99778741f5af.png)
 
