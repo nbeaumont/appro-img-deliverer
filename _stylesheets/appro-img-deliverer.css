@@ -40,6 +40,7 @@
 	right: 0;
 	left: 0;
 	cursor: pointer;
+	background-color:#CCC;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	-o-background-size: contain;
@@ -72,6 +73,10 @@ a.mfpImageSourceLink {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: bold
 }
+
+.aid-zoomIcon {padding:.5em;background:#666;background:rgba(255,255,255,.5);position:absolute;right:0;bottom:0}
+
+.fa-lg.aid-zoomIcon {line-height:1}
 
 /* = MEDIA QUERIES =
  * =================
