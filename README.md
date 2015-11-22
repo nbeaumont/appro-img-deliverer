@@ -21,7 +21,7 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
 ### 1. Prepare You Images
 
-  * Download the content of appro-img-deliverer as a ZIP file.
+  * Download the content of **appro-img-deliverer** as a ZIP file.
   
   * Create the following directory tree.
   
@@ -29,18 +29,18 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
   * Open Photoshop.
 
-  * Choose File > Scripts > Image Processor. See [Photoshop Help / 
+  * Choose **File** > **Scripts** > **Image Processor**. See [Photoshop Help / 
 Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-batch-files.html) for more info.
 
   * Select the images to be processed. You can choose to process any open files, or select a folder of files to process.
 
   * Select the location where you want to save the processed files. For the 480px version of your image choose the folder named 480.
 
-  * Select Save as JPEG.
+  * Select **Save as JPEG**.
 
-  * Set the JPEG image quality.
+  * Set the JPEG image **Quality**.
 
-  * Select Resize To Fit. It resizes the image to fit within the dimensions you enter in Width and Height. The image retains its original proportions. For the 480px version of your image enter 480in Width and 480 in Height.
+  * Select **Resize To Fit**. It resizes the image to fit within the dimensions you enter in Width and Height. The image retains its original proportions. For the 480px version of your image enter 480in Width and 480 in Height.
 
 ![image_processor_screen_shot](https://cloud.githubusercontent.com/assets/10236829/11309892/80c900d2-8f94-11e5-8115-99778741f5af.png)
 
