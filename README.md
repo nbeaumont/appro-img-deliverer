@@ -65,6 +65,7 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Delivering a device appropriate version of an image with CSS and JavaScript</title>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <style>
 /*Set the small sized versions of the images for standard resolution displays*/
 .your_image_1 {
