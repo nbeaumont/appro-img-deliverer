@@ -19,7 +19,7 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
 ## Dependencies
 
-[Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/), a responsive lightbox & dialog script, by Dmitry Semenov.
+[**Magnific Popup**](http://dimsemenov.com/plugins/magnific-popup/), a responsive lightbox & dialog script, by Dmitry Semenov.
 
 ## Instructions
 
@@ -33,8 +33,8 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
   * Open Photoshop.
 
-  * Choose **File** > **Scripts** > **Image Processor**. See [Photoshop Help / 
-Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-batch-files.html) for more info.
+  * Choose **File** > **Scripts** > **Image Processor**. See [**Photoshop Help / 
+Process a batch of files**](https://helpx.adobe.com/photoshop/using/processing-batch-files.html) for more info.
 
   * Select the images to be processed. You can choose to process any open files, or select a folder of files to process.
 
