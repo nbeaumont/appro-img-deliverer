@@ -56,7 +56,7 @@ Process a batch of files**](https://helpx.adobe.com/photoshop/using/processing-b
 
 ### 2. Setup Your Document
 
-#### Include the following HTML code into the head section of your document.
+  * Include the following HTML code into the head section of your document.
 
 ```html
 
@@ -64,7 +64,7 @@ Process a batch of files**](https://helpx.adobe.com/photoshop/using/processing-b
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Delivering a device appropriate version of an image with CSS and JavaScript</title>
 <style>
-/*Set the small sized version of the image for standard resolution displays*/
+/*Set the small sized versions of the images for standard resolution displays*/
 .your_image_1 {
 	background: url(_images/480/your_image_1-480.jpg) center no-repeat;
 }
@@ -72,7 +72,7 @@ Process a batch of files**](https://helpx.adobe.com/photoshop/using/processing-b
 .your_image_2 {
 	background: url(_images/480/your_image_2-480.jpg) center no-repeat;
 }
-/*Set the small sized version of the image for displays with a pixel ratio superior or equal to 2*/
+/*Set the small sized versions of the images for displays with a pixel ratio superior or equal to 2*/
 @media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
 
 .your_image_1 {
@@ -91,6 +91,13 @@ Process a batch of files**](https://helpx.adobe.com/photoshop/using/processing-b
 <script type="text/javascript" src="_javascripts/jquery.appro-img-deliverer.js"></script>
 
 ```
+  * Include the following HTML code into the body of your document.
 
+```html
+
+<div class="aid-main your_image_1"> </div>
+<div class="aid-main your_image_2"> </div>
+
+```
 
 
