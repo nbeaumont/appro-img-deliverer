@@ -1,6 +1,6 @@
 // JavaScript Document
 (function($) {
-    $.fn.set_aspectRatio = function() {
+    $.fn.aid_set_img = function() {
         var $this = $(this);
         var image_url = $this.css('background-image'),
             image;
@@ -16,7 +16,7 @@
         }
         return this;
     };
-    $.fn.open_popup = function() {
+    $.fn.aid_open_popup = function() {
         this.click(function(e) {
             var bgImg = $(this).css('background-image');
             if (bgImg) {
@@ -24,7 +24,7 @@
                     var viewportWidth = $(window).width();
                     var viewportHeight = $(window).height();
                     alert("Your viewport width is" + " " + viewportWidth + " " + "px" + " " + "and" + " " + "your viewport height is" + " " + viewportHeight + " " + "px");
-                    var elem = document.getElementById("dai-mediaQueryIndicator");
+                    var elem = document.getElementById("aid-mediaQueryIndicator");
                     var myString = window.getComputedStyle(elem, ':before').content;
                     var beforeContent = myString.replace(/["']/g, '');
                     var beforeContentStr = beforeContent.replace("@2x", "");
@@ -88,5 +88,12 @@
             } else {}
         });
     };
-    
+    $(document).ready(function() {
+			$(document.body).prepend("<div id='aid-mediaQueryIndicator'>&nbsp;</div>");
+			$('.aid-main').each(function() {
+				$(this).wrap("<div class='aid-contentWrapper'></div>").wrap("<div class='aid-centerer'></div>").wrap("<div class='aid-wrapper'></div>");
+				$(this).aid_set_img();
+			});
+        $('.aid-main').aid_open_popup();
+    });
 })(jQuery);

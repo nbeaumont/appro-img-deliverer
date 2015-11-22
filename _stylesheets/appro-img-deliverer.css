@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* CSS Document */
-.dai-contentWrapper {
+.aid-contentWrapper {
 	display: block;
 	float: left;
 	clear: both;
@@ -10,7 +10,7 @@
 	margin: 0
 }
 
-.dai-centerer {
+.aid-centerer {
 	display: block;
 	width: 100%;
 	max-width: 480px;
@@ -22,18 +22,18 @@
 	overflow: hidden
 }
 
-.dai-wrapper {
+.aid-wrapper {
 	width: 100%;
 	display: inline-block;
 	position: relative
 }
 
-.dai-wrapper:after {
+.aid-wrapper:after {
 	display: block;
 	content: ''
 }
 
-.dai-main {
+.aid-main {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -46,34 +46,7 @@
 	background-size: contain
 }
 
-.Claude_Monet_-_Poppy_Field_-_Google_Art_Project {
-	background: url(../_images/480/Claude_Monet_-_Poppy_Field_-_Google_Art_Project-480.jpg) center no-repeat;
-}
-
-.Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project {
-	background: url(../_images/480/Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project-480.jpg) center no-repeat;
-}
-
-.Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project {
-	background: url(../_images/480/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project-480.jpg)center no-repeat;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
-
-.Claude_Monet_-_Poppy_Field_-_Google_Art_Project {
-	background: url(../_images/960/Claude_Monet_-_Poppy_Field_-_Google_Art_Project-960.jpg) center no-repeat;
-}
-
-.Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project {
-	background: url(../_images/960/Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project-960.jpg) center no-repeat;
-}
-
-.Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project {
-	background: url(../_images/960/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project-960.jpg) center no-repeat;
-}
-}
-
-#dai-mediaQueryIndicator {
+#aid-mediaQueryIndicator {
 	position: absolute;
 	top: -999em;
 	left: -999em
@@ -118,21 +91,21 @@ a.mfpImageSourceLink {
  
 @media only screen and (max-width:320px) and (orientation:portrait), only screen and (max-width:480px) and (orientation:landscape) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "480"
 }
 }
 
 @media only screen and (max-width:320px) and (orientation:portrait) {
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 400px
 }
 }
 
 @media only screen and (max-width:480px) and (orientation:landscape) {
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 270px
 }
 }
@@ -145,7 +118,7 @@ a.mfpImageSourceLink {
  
 @media only screen and (max-width:320px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (max-width:320px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (max-width:320px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (max-width:480px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (max-width:480px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (max-width:480px) and (orientation:landscape) and (min-resolution:2dppx) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "480@2x"
 }
 }
@@ -164,21 +137,21 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait), only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape), only screen and (max-width:320px) and (device-aspect-ratio:40/71) and (orientation:portrait), only screen and (width:320px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.4) and (-webkit-max-device-pixel-ratio:1.9), only screen and (width:320px) and (orientation:portrait) and (min-resolution:144dpi) and (max-resolution:191dpi), only screen and (width:320px) and (orientation:portrait) and (min-resolution:1.4dppx) and (max-resolution:1.9dppx) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "640"
 }
 }
 
 @media only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait), only screen and (max-width:320px) and (device-aspect-ratio:40/71) and (orientation:portrait), only screen and (width:320px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.4) and (-webkit-max-device-pixel-ratio:1.9), only screen and (width:320px) and (orientation:portrait) and (min-resolution:144dpi) and (max-resolution:191dpi), only screen and (width:320px) and (orientation:portrait) and (min-resolution:1.4dppx) and (max-resolution:1.9dppx) {
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 400px
 }
 }
 
 @media only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) {
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 270px
 }
 }
@@ -194,7 +167,7 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:321px) and (max-width:400px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) and (min-resolution:2dppx), only screen and (max-width:320px) and (device-aspect-ratio:40/71) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "640@2x"
 }
 }
@@ -209,21 +182,21 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait), only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape), only screen and (min-width:375px) and (max-width:667px) and (orientation:portrait) and (device-aspect-ratio:375/667) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "800"
 }
 }
 
 @media only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait), only screen and (min-width:375px) and (max-width:667px) and (orientation:portrait) and (device-aspect-ratio:375/667) {
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 540px
 }
 }
 
 @media only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape) {
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 320px
 }
 }
@@ -238,7 +211,7 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:641px) and (max-width:800px) and (orientation:landscape) and (min-resolution:2dppx), only screen and (min-width:375px) and (max-width:667px) and (orientation:portrait) and (device-aspect-ratio:375/667) and (-webkit-min-device-pixel-ratio:2) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "800@2x"
 }
 }
@@ -258,21 +231,21 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait), only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape), only screen and (device-width:480px) and (device-height:854px) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1024"
 }
 }
 
 @media only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait), only screen and (device-width:480px) and (device-height:854px) and (orientation:portrait) {
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
 
 @media only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape) {
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 400px
 }
 }
@@ -287,7 +260,7 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:481px) and (max-width:768px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:801px) and (max-width:1024px) and (orientation:landscape) and (min-resolution:2dppx) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1024@2x"
 }
 }
@@ -303,11 +276,11 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:landscape), only screen and (min-width:720px) and (device-aspect-ratio:9/16) and (orientation:portrait) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1280"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
@@ -320,7 +293,7 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait) and (min-resolution:2dppx), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:landscape) and (min-resolution:2dppx), only screen and (min-width:720px) and (orientation:portrait) and (device-aspect-ratio:9/16) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:720px) and (orientation:portrait) and (device-aspect-ratio:9/16) and (min-resolution:192dpi), only screen and (min-width:720px) and (orientation:portrait) and (device-aspect-ratio:9/16) and (min-resolution:2dppx) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1280@2x"
 }
 }
@@ -333,11 +306,11 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:1025px) and (max-width:1280px) and (orientation:portrait) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1280"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
@@ -348,11 +321,11 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:1025px) and (max-width:1280px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:1025px) and (max-width:1280px) and (orientation:portrait) and (min-resolution:2dppx) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1280@2x"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
@@ -365,11 +338,11 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:1281px) and (orientation:portrait) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1600"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
@@ -382,11 +355,11 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:1281px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:1281px) and (orientation:portrait) and (min-resolution:192dpi), only screen and (min-width:1281px) and (orientation:portrait) and (min-resolution:2dppx) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1600@2x"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
@@ -399,44 +372,44 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:1281px) and (max-width:1600px) and (orientation:landscape) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1600"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
 
 @media only screen and (min-width:1601px) and (max-width:1920px) and (orientation:landscape) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1920"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
 
 @media only screen and (min-width:1921px) and (max-width:2560px) and (orientation:landscape) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "2560"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
 
 @media only screen and (min-width:2561px) and (orientation:landscape) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "3200"
 }
 
-.dai-centerer, .dai-main {
+.aid-centerer, .aid-main {
 	max-height: 480px
 }
 }
@@ -447,7 +420,7 @@ a.mfpImageSourceLink {
  
 @media only screen and (min-width:1281px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2), only screen and (min-width:1281px) and (orientation:landscape) and (min-resolution:192dpi), only screen and (min-width:1281px) and (orientation:landscape) and (min-resolution:2dppx) {
 
-#dai-mediaQueryIndicator:before {
+#aid-mediaQueryIndicator:before {
 	content: "1600@2x"
 }
 }

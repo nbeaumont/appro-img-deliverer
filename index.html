@@ -4,6 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Delivering a device appropriate version of an image with CSS and JavaScript</title>
+<style>
+/*Set the small sized version of the image for standard resolution displays*/
+.Claude_Monet_-_Poppy_Field_-_Google_Art_Project {
+	background: url(_images/480/Claude_Monet_-_Poppy_Field_-_Google_Art_Project-480.jpg) center no-repeat;
+}
+
+.Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project {
+	background: url(_images/480/Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project-480.jpg) center no-repeat;
+}
+/*Set the small sized version of the image for displays with a pixel ratio superior or equal to 2*/
+@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
+
+.Claude_Monet_-_Poppy_Field_-_Google_Art_Project {
+	background: url(_images/960/Claude_Monet_-_Poppy_Field_-_Google_Art_Project-960.jpg) center no-repeat;
+}
+
+.Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project {
+	background: url(_images/960/Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project-960.jpg) center no-repeat;
+}
+}
+</style>
 <link rel="stylesheet" type="text/css" media="screen" href="_stylesheets/magnific-popup.css">
 <link rel="stylesheet" type="text/css" media="screen" href="_stylesheets/appro-img-deliverer.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -11,37 +32,17 @@
 <script type="text/javascript" src="_javascripts/jquery.appro-img-deliverer.js"></script>
 </head>
 <body>
-<div id="dai-mediaQueryIndicator">&nbsp;</div>
-<div class="dai-contentWrapper">
-  <div class="dai-centerer">
-    <div class="dai-wrapper">
-      <div class="dai-main Claude_Monet_-_Poppy_Field_-_Google_Art_Project"> </div>
-    </div>
-  </div>
-</div>
-<div class="dai-contentWrapper">
-  <div class="dai-centerer">
-    <div class="dai-wrapper">
-      <div class="dai-main Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project"> </div>
-    </div>
-  </div>
-</div>
-<div class="dai-contentWrapper">
-  <div class="dai-centerer">
-    <div class="dai-wrapper">
-      <div class="dai-main Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project"> </div>
-    </div>
-  </div>
-</div>
+<div class="aid-main Claude_Monet_-_Poppy_Field_-_Google_Art_Project"> </div>
+<div class="aid-main Claude_Monet_-_Rouen_Cathedral_West_Facade_Sunlight_-_Google_Art_Project"> </div>
 <script type="text/javascript">
-jQuery(function() {
+/*jQuery(function() {
 	$(document).ready(function() {
-        $('.dai-main').each(function() {
-            $(this).set_aspectRatio();
+        $('.aid-main').each(function() {
+            $(this).aid_set_img();
         });
-        $('.dai-main').open_popup();
+        $('.aid-main').aid_open_popup();
     });
-	});
+	});*/
 </script>
 </body>
 </html>
