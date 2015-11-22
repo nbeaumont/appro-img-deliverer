@@ -17,6 +17,10 @@ A jquery plugin to deliver a device appropriate version of an image in a lightbo
 
 ## [Demo](http://htmlpreview.github.io/?https://github.com/nbeaumont/appro-img-deliverer/blob/master/index.html)
 
+## Dependencies
+
+[Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/), a responsive lightbox & dialog script, by Dmitry Semenov.
+
 ## Instructions
 
 ### 1. Prepare You Images
@@ -52,4 +56,41 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 
 ### 2. Setup Your Document
 
-  * 
+#### Include the following HTML code into the head section of your document.
+
+```html
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delivering a device appropriate version of an image with CSS and JavaScript</title>
+<style>
+// Set the small sized version of the image for standard resolution displays
+.your_image_1 {
+	background: url(_images/480/your_image_1-480.jpg) center no-repeat;
+}
+
+.your_image_2 {
+	background: url(_images/480/your_image_2-480.jpg) center no-repeat;
+}
+// Set the small sized version of the image for displays with a pixel ratio superior or equal to 2
+@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
+
+.your_image_1 {
+	background: url(_images/960/your_image_1-960.jpg) center no-repeat;
+}
+
+.your_image_2 {
+	background: url(_images/960/your_image_2-960.jpg) center no-repeat;
+}
+}
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="_stylesheets/magnific-popup.css">
+<link rel="stylesheet" type="text/css" media="screen" href="_stylesheets/appro-img-deliverer.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="_javascripts/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="_javascripts/jquery.appro-img-deliverer.js"></script>
+
+```
+
+
+
