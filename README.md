@@ -64,7 +64,7 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Delivering a device appropriate version of an image with CSS and JavaScript</title>
 <style>
-// Set the small sized version of the image for standard resolution displays
+/*Set the small sized version of the image for standard resolution displays*/
 .your_image_1 {
 	background: url(_images/480/your_image_1-480.jpg) center no-repeat;
 }
@@ -72,7 +72,7 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 .your_image_2 {
 	background: url(_images/480/your_image_2-480.jpg) center no-repeat;
 }
-// Set the small sized version of the image for displays with a pixel ratio superior or equal to 2
+/*Set the small sized version of the image for displays with a pixel ratio superior or equal to 2*/
 @media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:192dpi), only screen and (min-resolution:2dppx) {
 
 .your_image_1 {
