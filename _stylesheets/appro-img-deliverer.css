@@ -73,15 +73,10 @@ a.mfpImageSourceLink {
 	font-size: bold
 }
 
-/* ===================
- * ===================
- * == MEDIA QUERIES ==
- * ===================
- * ===================
- */
-
-/*! ==========================
- *  * max viewport 320 x 480 *
+/* = MEDIA QUERIES =
+ * =================
+ *
+/* * max viewport 320 x 480 *
  *  ==========================
  *  |		* devicePixelRatio < 2 
  *  |		| --------------------
@@ -123,8 +118,7 @@ a.mfpImageSourceLink {
 }
 }
 
-/*! ==================================================
- *  * min viewport 321 x 481, max viewport 400 x 640 *
+/*! * min viewport 321 x 481, max viewport 400 x 640 *
  *  ==================================================
  *  |		* devicePixelRatio < 2 
  *  |		| --------------------
@@ -172,8 +166,7 @@ a.mfpImageSourceLink {
 }
 }
 
-/*! ==================================================
- *  * min viewport 401 x 641, max viewport 480 x 800 *
+/*! * min viewport 401 x 641, max viewport 480 x 800 *
  *  ==================================================
  *  |		* devicePixelRatio < 2 
  *  |		| --------------------
@@ -216,8 +209,7 @@ a.mfpImageSourceLink {
 }
 }
 
-/*! ===================================================
- *  * min viewport 481 x 801, max viewport 768 x 1024 *
+/*! * min viewport 481 x 801, max viewport 768 x 1024 *
  *  ===================================================
  *  |		* devicePixelRatio < 2 
  *  |		| --------------------
@@ -265,8 +257,7 @@ a.mfpImageSourceLink {
 }
 }
 
-/*! =====================================================
- *  * min viewport 769 x 1025, max viewport 1024 x 1280 *
+/*! * min viewport 769 x 1025, max viewport 1024 x 1280 *
  *  =====================================================
  *  |		* devicePixelRatio < 2 
  *  |		| --------------------
@@ -298,8 +289,7 @@ a.mfpImageSourceLink {
 }
 }
 
-/*! ==========================================================
- *  * min viewport 1025 portrait, max viewport 1280 portrait *
+/*! * min viewport 1025 portrait, max viewport 1280 portrait *
  *  ==========================================================
  *  |		* devicePixelRatio < 2
  */
@@ -330,8 +320,7 @@ a.mfpImageSourceLink {
 }
 }
 
-/*! ==============================
- *  * min viewport 1281 portrait *
+/*! * min viewport 1281 portrait *
  *  ==============================
  *  |		* devicePixelRatio < 2
  */
@@ -347,8 +336,7 @@ a.mfpImageSourceLink {
 }
 }
 
-/*! ==============================
- *  * min viewport 1281 portrait *
+/*! * min viewport 1281 portrait *
  *  ==============================
  *  |		* devicePixelRatio >= 2
  */
@@ -364,8 +352,7 @@ a.mfpImageSourceLink {
 }
 }
 
-/*! ===============================
- *  * min viewport 1281 landscape *
+/*! * min viewport 1281 landscape *
  *  ===============================
  *  |		* devicePixelRatio < 2
  */
