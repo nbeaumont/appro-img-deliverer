@@ -30,7 +30,7 @@
 <ul>
 <li><p>displays a small sized version of an image for all devices, no more than 480px tall if in portrait mode, and no more than 480px wide if in landscape mode.</p></li>
 <li><p>delivers in a lightbox, a large version of the image, adapted to the screen resolution of the device it is viewed on.</p></li>
-<li><p>adapts the largest dimension of the image delivered, to the largest dimension of the device. For example, if we have a breakpoint at 640px in our CSS Media Queries and our device screen resolution is 360px by 640px; if our image is in portrait mode, its height is going to be 640px, and if it is in landscape mode, its width is going to be 640px.</p></li>
+<li><p>adapts the largest dimension of the image delivered, to the largest dimension of the device. For example, if you have a breakpoint at 640px in your CSS Media Queries and your device screen resolution is 360px by 640px; if your image is in portrait mode, its height is going to be 640px, and if it is in landscape mode, its width is going to be 640px.</p></li>
 <li><p>serves the same image, whether the device is in portrait or landscape mode on most common mobile devices, to avoid downloading a new image after a change in orientation. Devices and resolutions covered are the ones found in Google Chrome devTools, Device Mode and Mobile Emulation.</p></li>
 <li><p>supports high resolution displays with a device pixel ratio equal or superior to 2.</p></li>
 </ul>
@@ -57,7 +57,7 @@
 
 <ul>
 <li><p>Download the content of <strong>appro-img-deliverer</strong> as a ZIP file.</p></li>
-<li><p>Create the following directory tree.</p></li>
+<li><p>Create a directory tree like the one shown below. Copy the files jquery.appro-img-deliverer.js and jquery.magnific-popup.min.js to the _javascripts folder, and the files appro-img-deliverer.css and magnific-popup.css to the _stylesheets folder. Create a new html document and save it in your project_root folder.</p></li>
 </ul>
 
 <p><img src="https://cloud.githubusercontent.com/assets/10236829/11320919/e3c3645e-9078-11e5-9b27-0b2400421352.png" alt="screen-shot-2015-11-21-at-5 43 34-pm"></p>
@@ -70,7 +70,7 @@ Process a batch of files</a> for more info.</p></li>
 <li><p>Select the location where you want to save the processed files. For the 480px version of your image choose the folder named 480.</p></li>
 <li><p>Select <strong>Save as JPEG</strong>.</p></li>
 <li><p>Set the JPEG image <strong>Quality</strong>.</p></li>
-<li><p>Select <strong>Resize To Fit</strong>. It resizes the image to fit within the dimensions you enter in Width and Height. The image retains its original proportions. For the 480px version of your image enter 480in Width and 480 in Height.</p></li>
+<li><p>Select <strong>Resize To Fit</strong>. It resizes the image to fit within the dimensions you enter in Width and Height. The image retains its original proportions. For the 480px version of your image enter 480 in <strong>Width</strong> and 480 in <strong>Height</strong>.</p></li>
 </ul>
 
 <p><img src="https://cloud.githubusercontent.com/assets/10236829/11309892/80c900d2-8f94-11e5-8115-99778741f5af.png" alt="image_processor_screen_shot"></p>
@@ -86,7 +86,7 @@ Process a batch of files</a> for more info.</p></li>
 <a id="2-setup-your-document" class="anchor" href="#2-setup-your-document" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Setup Your Document</h3>
 
 <ul>
-<li>Include the following HTML code into the head section of your document.</li>
+<li>Include the following HTML code into the head section of your HTML document.</li>
 </ul>
 
 <div class="highlight highlight-text-html-basic"><pre>
@@ -123,7 +123,7 @@ Process a batch of files</a> for more info.</p></li>
 </pre></div>
 
 <ul>
-<li>Include the following HTML code into the body of your document.</li>
+<li>Include the following HTML code into the body of your HTML document.</li>
 </ul>
 
 <div class="highlight highlight-text-html-basic"><pre>
