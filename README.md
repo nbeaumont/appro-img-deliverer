@@ -28,16 +28,10 @@ A jQuery plugin to deliver a device appropriate version of an image in a lightbo
 
   * Download the content of **appro-img-deliverer** as a ZIP file.
   
-  * Create the following directory tree.
+  * Create a directory tree like the one shown below. Copy the files jquery.appro-img-deliverer.js and jquery.magnific-popup.min.js to the _javascripts folder, and the files appro-img-deliverer.css and magnific-popup.css to the _stylesheets folder. Create a new html document and save it in your project_root folder.
 
-  * Copy the files jquery.appro-img-deliverer.js and jquery.magnific-popup.min.js to the _javascripts folder.
- 
-  * Copy the files appro-img-deliverer.css and magnific-popup.css to the _stylesheets folder.
-
-  * Create a new html document and save it in your project_root folder.
-  
 ![screen-shot-2015-11-21-at-5 43 34-pm](https://cloud.githubusercontent.com/assets/10236829/11320919/e3c3645e-9078-11e5-9b27-0b2400421352.png)
-
+  
   * Open Photoshop.
 
   * Choose **File** > **Scripts** > **Image Processor**. See [Photoshop Help / 
