@@ -159,8 +159,10 @@ a.mfpImageSourceLink {
  *  |		* devicePixelRatio >= 2 
  *  |		| ---------------------
  *  |		|		* iphone 5 - 320 x 568 - 40/71 aspect ratio 
- *  |		|		* BlackBerry Z30, Google Nexus 5, HTC One X, EVO LTE, Samsung Galaxy Note II, Samsung Galaxy S III, Galaxy Nexus, Samsung Galaxy S4, Sony Xperia S, Ion, Sony Xperia Z, Z1 - 360 x 640
- *  |		|		* BlackBerry Z10, Google Nexus 4, LG Optimus G - 384 x 640 
+ *  |		|		* BlackBerry Z30, Google Nexus 5, HTC One X, EVO LTE, Samsung Galaxy Note 3, Samsung Galaxy Note II, Samsung Galaxy S III, Galaxy Nexus, Samsung Galaxy S4, Sony Xperia S, Ion, Sony Xperia Z, Z1 - 360 x 640
+ *  |		|		* BlackBerry Z10, Google Nexus 4, LG Optimus G - 384 x 640
+ *  |		|		* Google Nexus 4 - 384 x 567
+ *  |		|		* Google Nexus 5 - 335 x 598
  *  |		|		* Samsung Galaxy Note - 400 x 640
  */
  
@@ -188,7 +190,7 @@ a.mfpImageSourceLink {
 @media only screen and (min-width:401px) and (max-width:480px) and (orientation:portrait), only screen and (min-width:375px) and (max-width:667px) and (orientation:portrait) and (device-aspect-ratio:375/667) {
 
 .aid-centerer, .aid-main {
-	max-height: 540px
+	max-height: 480px
 }
 }
 
