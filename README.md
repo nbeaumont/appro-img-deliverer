@@ -57,7 +57,7 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 
 ### 2. Setup Your Document
 
-  * Include the following HTML code into the head section of your document.
+  * Include the following HTML code into the head section of your HTML document.
 
 ```html
 
@@ -93,7 +93,7 @@ Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-bat
 <script type="text/javascript" src="_javascripts/jquery.appro-img-deliverer.js"></script>
 
 ```
-  * Include the following HTML code into the body of your document.
+  * Include the following HTML code into the body of your HTML document.
 
 ```html
 
