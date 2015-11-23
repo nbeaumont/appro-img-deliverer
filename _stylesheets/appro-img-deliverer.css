@@ -332,10 +332,43 @@ a.mfpImageSourceLink {
  *  |		* devicePixelRatio < 2
  */
  
-@media only screen and (min-width:1281px) and (orientation:portrait) {
+@media only screen and (min-width:1281px) and (max-width:1600px) and (orientation:portrait) {
 
 #aid-mediaQueryIndicator:before {
 	content: "1600"
+}
+
+.aid-centerer, .aid-main {
+	max-height: 480px
+}
+}
+
+@media only screen and (min-width:1601px) and (max-width:1920px) and (orientation:portrait) {
+
+#aid-mediaQueryIndicator:before {
+	content: "1920"
+}
+
+.aid-centerer, .aid-main {
+	max-height: 480px
+}
+}
+
+@media only screen and (min-width:1921px) and (max-width:2560px) and (orientation:portrait) {
+
+#aid-mediaQueryIndicator:before {
+	content: "2560"
+}
+
+.aid-centerer, .aid-main {
+	max-height: 480px
+}
+}
+
+@media only screen and (min-width:2561px) and (orientation:portrait) {
+
+#aid-mediaQueryIndicator:before {
+	content: "3200"
 }
 
 .aid-centerer, .aid-main {
