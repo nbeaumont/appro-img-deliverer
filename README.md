@@ -20,7 +20,6 @@ A jQuery plugin to deliver a device appropriate version of an image in a lightbo
 ## Dependencies
 
   * [Font Awesome](https://fortawesome.github.io/Font-Awesome/), an iconic font and CSS tookit.
-
   * [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/), a responsive lightbox & dialog script, by Dmitry Semenov.
 
 ## Instructions
