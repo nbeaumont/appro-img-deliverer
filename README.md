@@ -1,6 +1,6 @@
 # Device Appropriate Image Deliverer
 
-A jquery plugin to deliver a device appropriate version of an image in a lightbox, using CSS and JavaScript.
+A jQuery plugin to deliver a device appropriate version of an image in a lightbox, using CSS and JavaScript.
 
 ## Features:
 
