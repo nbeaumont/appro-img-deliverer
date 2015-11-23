@@ -8,7 +8,7 @@ A jQuery plugin to deliver a device appropriate version of an image in a lightbo
 
 - delivers in a lightbox, a large version of the image, adapted to the screen resolution of the device it is viewed on.
 
-- adapts the largest dimension of the image delivered, to the largest dimension of the device. For example, if we have a breakpoint at 640px in our CSS Media Queries and our device screen resolution is 360px by 640px; if our image is in portrait mode, its height is going to be 640px, and if it is in landscape mode, its width is going to be 640px.
+- adapts the largest dimension of the image delivered, to the largest dimension of the device. For example, if you have a breakpoint at 640px in your CSS Media Queries and your device screen resolution is 360px by 640px; if your image is in portrait mode, its height is going to be 640px, and if it is in landscape mode, its width is going to be 640px.
 
 - serves the same image, whether the device is in portrait or landscape mode on most common mobile devices, to avoid downloading a new image after a change in orientation. Devices and resolutions covered are the ones found in Google Chrome devTools, Device Mode and Mobile Emulation.
 
@@ -29,6 +29,12 @@ A jQuery plugin to deliver a device appropriate version of an image in a lightbo
   * Download the content of **appro-img-deliverer** as a ZIP file.
   
   * Create the following directory tree.
+
+  * Copy the files jquery.appro-img-deliverer.js and jquery.magnific-popup.min.js to the _javascripts folder.
+ 
+  * Copy the files appro-img-deliverer.css and magnific-popup.css to the _stylesheets folder.
+
+  * Create a new html document and save it in your project_root folder.
   
 ![screen-shot-2015-11-21-at-5 43 34-pm](https://cloud.githubusercontent.com/assets/10236829/11320919/e3c3645e-9078-11e5-9b27-0b2400421352.png)
 
