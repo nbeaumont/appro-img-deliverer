@@ -831,5 +831,6 @@
             $(this).aid_set_img();
             $(this).aid_open_popup();
         });
+		$("aid-contentWrapper").show();
     });
 })(jQuery);
