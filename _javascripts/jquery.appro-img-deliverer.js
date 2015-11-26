@@ -831,6 +831,8 @@
             $(this).aid_set_img();
             $(this).aid_open_popup();
         });
-		$(".aid-contentWrapper").show();
+	$(".aid-main, .aid-contentWrapper").each(function() {
+            $(this).show();
+	});
     });
 })(jQuery);
