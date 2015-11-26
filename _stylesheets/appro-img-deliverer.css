@@ -2,7 +2,7 @@
 
 /* CSS Document */
 .aid-contentWrapper {
-	display: none;
+	display: block;
 	float: left;
 	clear: both;
 	width: 100%;
@@ -34,7 +34,6 @@
 }
 
 .aid-main {
-	display: none;
 	position: absolute;
 	top: 0;
 	bottom: 0;
