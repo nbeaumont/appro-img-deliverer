@@ -87,13 +87,13 @@
                 }, 0);
             } else {}
         });
-        $('.aid-main').aid_open_popup();
     };
     $(document).ready(function() {
         $(document.body).prepend("<div id='aid-mediaQueryIndicator'></div>");
         $('.aid-main').each(function() {
             $(this).prepend("<i class='fa fa-search-plus fa-lg aid-zoomIcon'></i>").wrap("<div class='aid-contentWrapper'></div>").wrap("<div class='aid-centerer'></div>").wrap("<div class='aid-wrapper'></div>");
             $(this).aid_set_img();
+            $(this).aid_open_popup();
         });
     });
 })(jQuery);
