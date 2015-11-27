@@ -18,6 +18,7 @@
     };
     $.fn.aid_open_popup = function() {
         this.click(function(e) {
+            e.stopPropagation();
             var bgImg = $(this).css('background-image');
             if (bgImg) {
                 $(function() {
