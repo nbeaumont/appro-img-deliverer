@@ -87,7 +87,6 @@
                 }, 0);
             } else {}
         });
-        $('.aid-main').aid_open_popup();
     };
     $(document).ready(function() {
         $(document.body).prepend("<div id='aid-mediaQueryIndicator'></div>");
@@ -96,4 +95,5 @@
             $(this).aid_set_img();
         });
     });
+    $('.aid-main').aid_open_popup();
 })(jQuery);
