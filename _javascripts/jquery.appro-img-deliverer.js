@@ -16,8 +16,7 @@
         }
         return this;
     };
-    $.fn.aid_open_popup = function(e) {
-            e.stopPropagation();
+    $.fn.aid_open_popup = function() {
         this.click(function() {
             var bgImg = $(this).css('background-image');
             if (bgImg) {
@@ -91,7 +90,8 @@
     };
     $(document).ready(function() {
         $(document.body).prepend("<div id='aid-mediaQueryIndicator'></div>");
-        $('.aid-main').each(function() {
+        $('.aid-main').each(function(event) {
+            event.stopPropagation()
             $(this).prepend("<i class='fa fa-search-plus fa-lg aid-zoomIcon'></i>").wrap("<div class='aid-contentWrapper'></div>").wrap("<div class='aid-centerer'></div>").wrap("<div class='aid-wrapper'></div>");
             $(this).aid_set_img();
             $(this).aid_open_popup();
