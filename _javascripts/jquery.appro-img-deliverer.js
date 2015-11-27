@@ -17,7 +17,7 @@
         return this;
     };
     $.fn.aid_open_popup = function() {
-        this.click(function() {
+        this.click(function(e) {
             var bgImg = $(this).css('background-image');
             if (bgImg) {
                 $(function() {
