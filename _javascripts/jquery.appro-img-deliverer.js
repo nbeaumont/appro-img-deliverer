@@ -18,10 +18,10 @@
     };
     $.fn.aid_open_popup = function() {
         this.click(function(e) {
-            e.stopPropagation();
             var bgImg = $(this).css('background-image');
             if (bgImg) {
-                $(function() {
+                $(function(event) {
+                    event.stopPropagation();
                     var viewportWidth = $(window).width();
                     var viewportHeight = $(window).height();
                     alert("Your viewport width is" + " " + viewportWidth + " " + "px" + " " + "and" + " " + "your viewport height is" + " " + viewportHeight + " " + "px");
