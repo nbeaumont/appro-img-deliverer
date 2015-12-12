@@ -15,7 +15,7 @@ A jQuery plugin to deliver a device appropriate version of an image in a lightbo
 - supports high resolution displays with a device pixel ratio equal or superior to 2.
 
 
-## [Demo](http://htmlpreview.github.io/?https://github.com/nbeaumont/appro-img-deliverer/blob/master/index.html)
+## [Demo](http://htmlpreview.github.io/?https://rawgit.com/nbeaumont/appro-img-deliverer/master/index.html)
 
 ## Dependencies
 
