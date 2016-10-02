@@ -36,40 +36,11 @@
                         alert("your device pixel ratio is inferior to 2");
                         alert("the largest side of the image delivered in the lightbox is going to be:" + " " + beforeContent + " " + "pixels");
                     }
-                    if (beforeContent === ('480')) {
-                        bgImg = bgImgUrl;
-                    } else if (beforeContent === ('480@2x')) {
-                        bgImg = bgImgUrl;
-                    } else if (beforeContent === ('640')) {
-                        bgImg = bgImgUrl.replace('_images/480/', '_images/640/').replace(/-[0-9]+.jpg/, "-640.jpg");
-                    } else if (beforeContent === ('640@2x')) {
-                        bgImg = bgImgUrl.replace('_images/960/', '_images/1280/').replace(/-[0-9]+.jpg/, "-1280.jpg");
-                    } else if (beforeContent === ('800')) {
-                        bgImg = bgImgUrl.replace('_images/480/', '_images/800/').replace(/-[0-9]+.jpg/, "-800.jpg");
-                    } else if (beforeContent === ('800@2x')) {
-                        bgImg = bgImgUrl.replace('_images/960/', '_images/1600/').replace(/-[0-9]+.jpg/, "-1600.jpg");
-                    } else if (beforeContent === ('1024')) {
-                        bgImg = bgImgUrl.replace('_images/480/', '_images/1024/').replace(/-[0-9]+.jpg/, "-1024.jpg");
-                    } else if (beforeContent === ('1024@2x')) {
-                        bgImg = bgImgUrl.replace('_images/960/', '_images/2048/').replace(/-[0-9]+.jpg/, "-2048.jpg");
-                    } else if (beforeContent === ('1280')) {
-                        bgImg = bgImgUrl.replace('_images/480/', '_images/1280/').replace(/-[0-9]+.jpg/, "-1280.jpg");
-                    } else if (beforeContent === ('1280@2x')) {
-                        bgImg = bgImgUrl.replace('_images/960/', '_images/2560/').replace(/-[0-9]+.jpg/, "-2560.jpg");
-                    } else if (beforeContent === ('1600')) {
-                        bgImg = bgImgUrl.replace('_images/480/', '_images/1600/').replace(/-[0-9]+.jpg/, "-1600.jpg");
-                    } else if (beforeContent === ('1600@2x')) {
-                        bgImg = bgImgUrl.replace('_images/960/', '_images/3200/').replace(/-[0-9]+.jpg/, "-3200.jpg");
-                    } else if (beforeContent === ('1920')) {
-                        bgImg = bgImgUrl.replace('_images/480/', '_images/1920/').replace(/-[0-9]+.jpg/, "-1920.jpg");
-                    } else if (beforeContent === ('2560')) {
-                        bgImg = bgImgUrl.replace('_images/480/', '_images/2560/').replace(/-[0-9]+.jpg/, "-2560.jpg");
-                    } else if (beforeContent === ('3200')) {
-                        bgImg = bgImgUrl.replace('_images/480/', '_images/3200/').replace(/-[0-9]+.jpg/, "-3200.jpg");
-                    } else {
-                        bgImg = bgImgUrl;
-                        alert('Sorry, but a larger image could not be found');
-                    }
+
+function ajaxCall3200(){bgImg=bgImgUrl.replace("_images/480/","_images/3200/").replace("_images/960/","_images/3200/").replace(/-[0-9]+.jpg/,"-3200.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall2560()}})}function ajaxCall2560(){bgImg=bgImgUrl.replace("_images/480/","_images/2560/").replace("_images/960/","_images/2560/").replace(/-[0-9]+.jpg/,"-2560.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall2048()}})}function ajaxCall2048(){bgImg=bgImgUrl.replace("_images/480/","_images/2048/").replace("_images/960/","_images/2048/").replace(/-[0-9]+.jpg/,"-2048.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall1920()}})}function ajaxCall1920(){bgImg=bgImgUrl.replace("_images/480/","_images/1920/").replace("_images/960/","_images/1920/").replace(/-[0-9]+.jpg/,"-1920.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall1600()}})}function ajaxCall1600(){bgImg=bgImgUrl.replace("_images/480/","_images/1600/").replace("_images/960/","_images/1600/").replace(/-[0-9]+.jpg/,"-1600.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall1280()}})}function ajaxCall1280(){bgImg=bgImgUrl.replace("_images/480/","_images/1280/").replace("_images/960/","_images/1280/").replace(/-[0-9]+.jpg/,"-1280.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall1024()}})}function ajaxCall1024(){bgImg=bgImgUrl.replace("_images/480/","_images/1024/").replace("_images/960/","_images/1024/").replace(/-[0-9]+.jpg/,"-1024.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall800()}})}function ajaxCall960(){bgImg=bgImgUrl.replace("_images/480/","_images/960/").replace(/-[0-9]+.jpg/,"-960.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall800()}})}function ajaxCall800(){bgImg=bgImgUrl.replace("_images/480/","_images/800/").replace(/-[0-9]+.jpg/,"-800.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall640()}})}function ajaxCall640(){bgImg=bgImgUrl.replace("_images/480/","_images/640/").replace(/-[0-9]+.jpg/,"-640.jpg");$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")},error:function(){alert("error");ajaxCall480()}})}function ajaxCall480(){bgImg=bgImgUrl;$.ajax({url:bgImg,type:"HEAD",async:false,success:function(){alert("succes")}})};
+
+if(beforeContent===("480")){bgImg=bgImgUrl}else{if(beforeContent===("480@2x")){bgImg=bgImgUrl}else{if(beforeContent===("640")){$(function(){ajaxCall640()})}else{if(beforeContent===("640@2x")){$(function(){ajaxCall1280()})}else{if(beforeContent===("800")){$(function(){ajaxCall800()})}else{if(beforeContent===("800@2x")){$(function(){ajaxCall1600()})}else{if(beforeContent===("1024")){$(function(){ajaxCall1024()})}else{if(beforeContent===("1024@2x")){$(function(){ajaxCall2048()})}else{if(beforeContent===("1280")){$(function(){ajaxCall1280()})}else{if(beforeContent===("1280@2x")){$(function(){ajaxCall2560()})}else{if(beforeContent===("1600")){$(function(){ajaxCall1600()})}else{if(beforeContent===("1600@2x")){$(function(){ajaxCall3200()})}else{if(beforeContent===("1920")){$(function(){ajaxCall1920()})}else{if(beforeContent===("2560")){$(function(){ajaxCall2560()})}else{if(beforeContent===("3200")){$(function(){ajaxCall3200()})}else{bgImg=bgImgUrl;alert("Sorry, but a larger image could not be found")}}}}}}}}}}}}}}};
+                    
                 });
                 $.magnificPopup.open({
                     items: {
