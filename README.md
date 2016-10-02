@@ -6,13 +6,13 @@ A jQuery plugin to deliver a device appropriate version of an image in a lightbo
 
 - Displays a small sized version of an image for all devices, no more than 480px tall if in portrait mode, and no more than 480px wide if in landscape mode.
 
-- Deliver, in a lightbox, a large version of that image, adapted to the rendering surface of the output device it is viewed on.
+- Delivers, in a lightbox, a large version of that image, adapted to the rendering surface of the output device it is viewed on.
 
 - Adapts the largest dimension of the image delivered, to the largest dimension of the rendering surface of the output device. For example, if you have a breakpoint at 640px in your CSS Media Queries and your viewport size is 360px by 511px; if the image to be delivered is in portrait mode, its height will be 640px, and if it is in landscape mode, its width will be 640px.
 
-- Serve the same image, whether the device is in portrait or landscape mode on most common mobile devices, to avoid downloading a new image on orientation change. Devices and resolutions covered are the ones found in Google Chrome devTools, Device Mode and Mobile Emulation.
+- Serves the same image, whether the device is in portrait or landscape mode on most common mobile devices, to avoid downloading a new image on orientation change. Devices and resolutions covered are the ones found in Google Chrome devTools, Device Mode and Mobile Emulation.
 
-- Add support for high resolution display with a device pixel ratio equal or superior to 2.
+- Supports for high resolution display with a device pixel ratio equal or superior to 2.
 
 
 ## [Demo](http://htmlpreview.github.io/?https://rawgit.com/nbeaumont/appro-img-deliverer/master/index.html)
@@ -35,7 +35,7 @@ A jQuery plugin to deliver a device appropriate version of an image in a lightbo
   * Choose **File** > **Scripts** > **Image Processor**. See [Photoshop Help / 
 Process a batch of files](https://helpx.adobe.com/photoshop/using/processing-batch-files.html) for more info.
 
-  * Select the images to be processed. You can choose to process any open files, or select a folder of files to process.
+  * In the Image Processor dialog box, select the images to be processed. You can choose to process any open files, or select a folder of files to process.
 
   * Select the location where you want to save the processed files. For the 480px version of your image choose the folder named 480.
 
