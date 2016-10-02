@@ -8,9 +8,9 @@ A jQuery plugin to deliver a device appropriate version of an image in a lightbo
 
 - Delivers, in a lightbox, a large version of that image, adapted to the rendering surface of the output device it is viewed on.
 
-- Adapts the largest dimension of the image delivered, to the largest dimension of the rendering surface of the output device. For example, if you have a breakpoint at 640px in your CSS Media Queries and your viewport size is 360px by 511px; if the image to be delivered is in portrait mode, its height will be 640px, and if it is in landscape mode, its width will be 640px.
+- Adapts the largest dimension of the image delivered, to the largest dimension of the rendering surface of the output device. For example, if you have a breakpoint at 640px in your CSS Media Queries and the rendering surface of your device is 360px by 511px; if the image to be delivered is in portrait mode, its height will be 640px, and if it is in landscape mode, its width will be 640px.
 
-- Serves the same image, whether the device is in portrait or landscape mode on most common mobile devices, to avoid downloading a new image on orientation change. Devices and resolutions covered are the ones found in Google Chrome devTools, Device Mode and Mobile Emulation.
+- Serves the same image whether the orientation is portrait or landscape for most common device breakpoints, to avoid downloading a new image on orientation change. Devices and resolutions covered are the ones found in Google Chrome devTools, Device Mode and Mobile Emulation.
 
 - Supports for high resolution display with a device pixel ratio equal or superior to 2.
 
